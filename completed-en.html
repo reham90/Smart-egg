@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Smart Egg / my orders </title>
+    <link rel="icon" href="images/fav.png" type="image/png" />
+    <link rel="stylesheet" href="css/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <!-- preloader -->
+    <!-- header section -->
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="nav-header">
+            <div class="img-logo">
+              <a href="#">
+                <img src="images/fav.png" class="img-responsive" />
+              </a>
+            </div>
+            <div class="header-icons-and-language">
+              <ul class="top-header-list">
+                <li>
+                  <a href="notifications.html">
+                    <div class="notification-icon">
+                      <i class="las la-bell top-header-list-icon"></i>
+                      <span class="notification-no"></span>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <div class="dropdown dropdown-div">
+                    <button class="dropbtn">
+                      <i class="las la-user top-header-list-icon"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#"> sign out </a>
+                      <a href="#"> delete account </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="hidden-lg hidden-md">
+                  <i class="las la-bars top-header-list-icon menu-id"></i>
+                </li>
+              </ul>
+              <a href="completed.html" class="language-anchor hidden-xs hidden-sm">العربية</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end top header-->
+      </div>
+    </header>
+    <!-- header section     -->
+    <!--  dashboard -->
+    <div class="container">
+      <div class="dashboard-section">
+        <div class="navgition">
+          <i class="las la-times menu-id bars-icon hidden-lg hidden-md"></i>
+          <ul class="my-account-list big-menu list-unstyled">
+            <li>
+              <i class="las la-chart-pie nav-icon"></i>
+              <a href="statistics.html"> statistics </a>
+            </li>
+            <li class="active">
+              <i class="las la-clipboard-list nav-icon"></i>
+              <a href="orders.html"> my orders </a>
+            </li>
+            <li>
+              <i class="las la-file nav-icon"></i>
+              <a href="files.html"> my files </a>
+            </li>
+            <li>
+              <i class="las la-bell nav-icon"></i>
+              <a href="notifications.html"> notifications </a>
+            </li>
+            <li>
+              <i class="las la-wallet nav-icon"></i>
+              <a href="wallet.html"> electronic wallet </a>
+            </li>
+          </ul>
+          <a href="completed.html" class="language-anchor hidden-lg hidden-md">العربية</a>
+        </div>
+        <div class="dashboard-content">
+          <div class="dashboard-title-bar">
+            <h2 class="dashboard-title">
+              <i class="las la-arrow-left dashboard-title-icon"></i> order details #123
+            </h2>
+          </div>
+          <ul class="order-list order-list-block">
+            <li>
+              <label class="order-label">
+                <i class="las la-hashtag order-list-icon"></i> round number </label> #123
+            </li>
+            <li>
+              <label class="order-label">
+                <i class="las la-calendar order-list-icon"></i> Date and time the round was created </label> 2023/03/01
+            </li>
+            <li>
+              <label class="order-label">
+                <i class="las la-credit-card order-list-icon"></i> pay method </label> cash
+            </li>
+          </ul>
+          <div class="order-status-block">
+            <label class="order-label">
+              <i class="las la-tag order-list-icon"></i> order status </label>
+            <ul class="linked-list">
+              <li class="active">
+                <i class="las la-check linked-list-icon"></i> Waiting for quotes
+              </li>
+              <li class="active">
+                <i class="las la-check linked-list-icon"></i> Quotation sent
+              </li>
+              <li class="active">
+                <i class="las la-check linked-list-icon"></i> Waiting for price offer acceptance
+              </li>
+              <li class="active">
+                <i class="las la-check linked-list-icon"></i> Waiting for confirmation and payment
+              </li>
+              <li class="active">
+                <i class="las la-check linked-list-icon"></i> Payment has been made and the transfer is in progress.
+              </li>
+              <li class="active">
+                <i class="las la-check linked-list-icon"></i> Preparing
+              </li>
+              <li class="active">
+                <i class="las la-check linked-list-icon"></i> Prepared
+              </li>
+              <li class="active">
+                <i class="las la-check linked-list-icon"></i> Shipping
+              </li>
+              <li class="active">
+                <i class="las la-check linked-list-icon"></i> shipped
+              </li>
+            </ul>
+          </div>
+          <div class="order-status-block">
+            <label class="order-label">
+              <i class="las la-boxes order-list-icon"></i> Quote sent </label>
+            <div class="proposal-block">
+              <div class="product-details">
+                <div class="product-img">
+                  <img class="img-responsive" src="images/01.png" alt="product image">
+                </div>
+                <div class="product-text">
+                  <h3 class="product-title"> Medium white egg cardboard - tray of 30 eggs </h3>
+                  <ul class="product-details-list">
+                    <li>
+                      <i class="las la-border-all product-details-list-icon"></i> Poultry eggs
+                    </li>
+                    <li>
+                      <i class="las la-weight-hanging product-details-list-icon"></i> medium
+                    </li>
+                  </ul>
+                  <div class="product-det">
+                    <ul class="product-details-list">
+                      <li class="product-details-list-label"> required quantity </li>
+                      <li> 150 </li>
+                    </ul>
+                    <ul class="product-details-list">
+                      <li class="product-details-list-label"> packaging options </li>
+                      <li> cardboard </li>
+                    </ul>
+                    <ul class="product-details-list">
+                      <li class="product-details-list-label"> Displayed price </li>
+                      <li> 12 R.S </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="proposal-block">
+              <div class="product-details">
+                <div class="product-img">
+                  <img class="img-responsive" src="images/02.png" alt="product image">
+                </div>
+                <div class="product-text">
+                  <h3 class="product-title"> Frozen chicken 1100 grams </h3>
+                  <ul class="product-details-list">
+                    <li>
+                      <i class="las la-border-all product-details-list-icon"></i> Poultry eggs
+                    </li>
+                    <li>
+                      <i class="las la-weight-hanging product-details-list-icon"></i> 1100 grams
+                    </li>
+                  </ul>
+                  <div class="product-det">
+                    <ul class="product-details-list">
+                      <li class="product-details-list-label"> required quantity </li>
+                      <li> 150 </li>
+                    </ul>
+                    <ul class="product-details-list">
+                      <li class="product-details-list-label"> packaging options </li>
+                      <li> cardboard </li>
+                    </ul>
+                    <ul class="product-details-list">
+                      <li class="product-details-list-label"> Displayed price </li>
+                      <li> 12 R.S </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="order-status-block">
+            <ul class="total-list">
+              <li>
+                <span class="total-list-text"> total cost </span>
+                <span class="total-list-text"> 3600 R.S </span>
+              </li>
+              <li>
+                <span class="total-list-text"> Total delivery fee </span>
+                <span class="total-list-text"> 3600 R.S </span>
+              </li>
+              <li>
+                <span class="total-list-text"> Value added tax </span>
+                <span class="total-list-text"> 3600 R.S </span>
+              </li>
+              <li>
+                <span class="total-list-text"> Total cost after tax </span>
+                <span class="total-list-text"> 3600 R.S </span>
+              </li>
+              <li>
+                <span class="total-list-text"> Total due </span>
+                <span class="total-list-text"> 3600 R.S </span>
+              </li>
+            </ul>
+          </div>
+          <div class="order-status-block">
+            <label class="order-label">
+              <i class="las la-truck order-list-icon"></i> Order receipt address </label>
+            <p class="order-text"> Abdallah Saleh </p>
+            <p class="order-text"> 43 Salah El Din Al Ayoubi Street - Al Malaz - Behind the National Bank </p>
+            <p class="order-text"> 0540000000 </p>
+          </div>
+          <div class="order-status-block">
+            <label class="order-label">
+              <i class="las la-comment order-list-icon"></i> notes & conditions </label>
+            <p class="order-text"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+          </div>
+          <div class="order-status-block">
+            <label class="order-label">
+              <i class="las la-file order-list-icon"></i> attachments </label>
+            <div class="attachment-bar">
+              <div class="attachment-details">
+                <span class="order-text"> filename.pdf </span>
+                <span class="attachment-name"> client : Abdallah Saleh </span>
+              </div>
+              <button class="download-link"> download </button>
+            </div>
+            <div class="attachment-bar">
+              <div class="attachment-details">
+                <span class="order-text"> filename.pdf </span>
+                <span class="attachment-name"> client : Abdallah Saleh </span>
+              </div>
+              <button class="download-link"> download </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- dashboard -->
+    <!-- footer section -->
+    <footer class="footer-div">
+      <div class="container">
+        <div class="footer-content">
+          <span class="copy-right"> © Smart Egg Foundation 2023 - All rights reserved </span>
+          <div class="social-section">
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="lab la-telegram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="lab la-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="lab la-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="lab la-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="lab la-facebook-f"></i>
+                </a>
+              </li>
+            </ul>
+            <a href="#" class="contact-link"> contact us </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section -->
+    <!-- arrow to top -->
+    <a class="arrow-top">
+      <i class="las la-arrow-up"></i>
+    </a>
+    <!-- arrow to top -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
