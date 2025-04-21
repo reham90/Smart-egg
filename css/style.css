@@ -3190,6 +3190,75 @@ html[dir="ltr"] .search-icon {
 	border-radius: 10px;
 	background-color: #34B7EA;
 }
+.contact-content{
+	width: 549px;
+}
+.contact-title{
+	color: var(--main-color);
+	text-align: start;
+	font-size: 16px;
+	font-family: "Tajawal-Bold";
+	margin: 0 0 15px;
+}
+.contact-list{
+	list-style: none;
+	margin: 0 0 60px;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.contact-list li{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	color: var(--main-color);
+	font-size: 18px;
+}
+.contact-icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	border-radius: 50%;
+	background-color: var(--main-hover);
+	color: var(--main-color);
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+}
+.contact-form .form-input-1{
+	width: 100%;
+	padding-inline-start:  26.5px;
+	margin: 0 0 10px;
+}
+.contact-form .upload__btn{
+	width: 100%;
+	margin: 0 0 10px;
+}
+.form-textarea{
+	height: 100px;
+	width: 100%;
+   
+    border-radius:24px;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    padding:  26.5px;
+    border: 2px solid transparent;
+    outline: none;
+    transition: 0.5s;
+    color: #9B9B9B;
+    font-size: 14px;
+}
+.form-textarea:focus{
+	border: 2px solid var(--main-color);
+}
+.contact-form .submit-btn{
+	width: 200px;
+    height: 48px;
+	border-radius: 24px;
+	margin: 20px 0 0;
+}
 .wallet-price{
 	color: var(--main-color);
 	font-size: 16px;
@@ -3932,6 +4001,13 @@ html[dir="ltr"] .search-icon {
 		flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+	}
+	.contact-content {
+		width: 100%;
+	}
+	.contact-list{
+		flex-wrap: wrap;
+		gap: 15px;
 	}
 	.wallet-info-2{
 		flex-wrap: wrap;
