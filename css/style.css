@@ -2957,29 +2957,53 @@ html[dir="ltr"] .search-icon {
 /*                          address book page                           */
 
 /*                             notifications page                       */
-.messages-block {
-	margin-bottom: 7px;
-	padding: 20px 20px 30px;
-	border: 1.5px solid #EBEBEB;
-	border-radius: 5px;
 
-
-}
 
 .notification-block {
-	margin-bottom: 7px;
-	padding: 20px 20px 30px;
-	border: 1.5px solid #EBEBEB;
-	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 15px 20px;
+	gap:13px;
+	border-radius: 20px;
 	display: flex;
-
+	box-shadow: 0px 3px 6px #0000001A;
 }
 
-.not-img {
-	margin-inline-end: 18px;
+.delete-all-btn{
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	padding: 0;
+	outline: none;
+	border: 0;
+	transition: 0.5s;
+	width: 106px;
+	height: 32px;
+	border-radius: 16px;
+	color: #9B9B9B ;
+	font-size: 14px;;
+	background-color: #EEEEEE;
+	font-family: "Tajawal-Medium";
+}
+.trash-icon{
+	font-size: 16px;
+}
+.delete-all-btn:hover{
+	background-color: var(--main-color);
+	color: #fff;
+}
+.delete-all-btn:focus{
+	background-color: var(--main-color);
+	color: #fff;
+	outline: none;
+	border: 0;
+}
+.notification-img{
+	width: 48px;
 	flex-shrink: 0;
-	height: 100%;
+}
+.notification-image{
+	width: 100%;
 }
 
 .form-3 {
@@ -3007,29 +3031,212 @@ html[dir="ltr"] .search-icon {
 }
 
 .notification-paragraph {
-	color: #000;
-	font-size: 14px;
+	color: var(--main-color);
+	font-size: 13px;
 	text-align: start;
 	line-height: 1.76;
-	margin: 0 0 18px;
+	margin: 0 0 6px;
+	font-family: "Tajawal-Bold";
 }
 
-.mt-30 {
-	margin-top: 30px;
-}
+
 
 .not-date {
-	color: #A1A1A1;
-	font-size: 12px;
+	color: #B4B4B4;
+	font-size: 11px;
 	text-align: start;
-	display: flex;
+	display: block;
 	margin: 0;
+	font-family: "Tajawal-Medium";
 }
 
-.gray-bg {
-	background-color: #F3F3F3;
+.unread-block{
+	background-color: #FAFAFA;
+	border: 1px solid #EEEEEE;
 }
-
+.wallet-info-bar{
+	background-color: var(--main-color);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 26px 30px;
+	margin: 0 0 20px;
+}
+.wallet-info-text{
+	display: flex;
+	align-items: center;
+	gap: 23px;
+	color: #fff;
+	font-size: 16px;
+}
+.wallet-info-answer{
+	color: #fff;
+	display: block;
+	margin: 0;
+	text-align: start;
+	font-size: 24px;
+	font-family: "Tajawal-Bold";
+}
+.charge-link{
+	color: var(--main-color);
+	background-color: var(--main-hover);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+	padding: 0 23px;
+	height: 36px;
+	border-radius: 18px;
+	font-size: 14px;
+	font-family: "Tajawal-Bold";
+}
+.charge-link:hover{
+	background-color: #fff;
+	color: var(--main-color);
+	text-decoration: none;
+}
+.wallet-label{
+	width: 100%;
+	font-size: 14px;
+	margin: 0 0 15px;
+}
+.wallet-block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	box-shadow: 0px 3px 6px #0000001A;
+	margin: 0 0 10px;
+}
+.wallet-block-2{
+	
+	padding: 15px;
+	box-shadow: 0px 3px 6px #0000001A;
+	margin: 0 0 10px;
+}
+.wallet-status{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 10px;
+	font-family: "Tajawal-Bold";
+	height: 20px;
+	border-radius: 10px;
+	padding: 0 10px;
+}
+.review{
+	background-color: var(--main-hover);
+}
+.cancelled{
+	background-color: #F8324A;
+}
+.completed{
+	background-color: #4BD12A;
+}
+.reciept-btn{
+	background-color: rgba(52, 183, 234, 0.15);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	outline: none;
+	border: 0;
+	transition: 0.5s;
+	color: rgba(52, 183, 234, 1);
+	font-size: 12px;
+	font-family: "Tajawal-Bold";
+	gap: 4px;
+	width: 135px;
+	height: 30px;
+	border-radius: 15px;
+	margin: 13px 0 0;
+}
+.download-icon{
+	font-size: 14px;
+}
+.reciept-btn:hover{
+	background-color:rgba(52, 183, 234, 1) ;
+	color: #fff;
+}
+.reciept-btn:focus{
+	background-color:rgba(52, 183, 234, 1) ;
+	color: #fff;
+	outline: none;
+	border: 0;
+}
+.wallet-details{
+	display: flex;
+	flex-direction: column;
+	gap:12px;
+}
+.wallet-info{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: var(--main-color);
+	font-size: 14px;
+	font-family: "Tajawal-Medium";
+}
+.wallet-note{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 10px;
+	font-family: "Tajawal-Bold";
+	padding: 0 10px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #34B7EA;
+}
+.wallet-price{
+	color: var(--main-color);
+	font-size: 16px;
+	display: block;
+	text-align: start;
+	margin: 0;
+	font-family: "Tajawal-Bold";
+}
+.date-bar{
+	display: flex;
+	align-items: center;
+	gap: 11px;
+}
+.wallet-info-2{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.wallet-details-2{
+	display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.wallet-price-2{
+	color: #9B9B9B;
+	font-size: 12px;
+	display: block;
+	text-align: start;
+	margin: 0;
+	font-family: "Tajawal-Bold";
+}
+.wallet-p{
+	text-align: start;
+	margin: 23px 0 0;
+	color: #9B9B9B;
+	font-size: 12px;
+	
+}
+.wallet-note-2{
+	color: #9B9B9B;
+	font-size: 12px;
+	display: block;
+	text-align: start;
+	margin: 0;
+	
+}
 /*                             notifications page                       */
 
 /*                                   wallet page                           */
@@ -3721,7 +3928,15 @@ html[dir="ltr"] .search-icon {
 		grid-template-columns: repeat(2, 1fr);
 		gap: 15px;
 	}
-
+	.wallet-info-bar{
+		flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+	}
+	.wallet-info-2{
+		flex-wrap: wrap;
+		gap:10px;
+	}
 	.upload__btn {
 		width: 100%;
 	}
